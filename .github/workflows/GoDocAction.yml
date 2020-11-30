@@ -1,4 +1,4 @@
-name: GoDoc Action
+name: GoDocAction
 
 on: [pull_request]
 jobs:
