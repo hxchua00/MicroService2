@@ -1,21 +1,8 @@
-# Micro2Service
+# .
 
-<!--START_SECTION_PROFILE_VIEWS:readme-info-->
-<!--END_SECTION_PROFILE_VIEWS:readme-info-->
+[![Build Status](https://travis-ci.org/hxchua00/MicroService2.svg?branch=master)](https://travis-ci.org/hxchua00/MicroService2)
+[![codecov](https://codecov.io/gh/hxchua00/MicroService2/branch/master/graph/badge.svg)](https://codecov.io/gh/hxchua00/MicroService2)
+[![GoDoc](https://img.shields.io/badge/pkg.go.dev-doc-blue)](http://pkg.go.dev/github.com/hxchua00/MicroService2)
 
-<!--START_SECTION_LINES_OF_CODE:readme-info-->
-<!--END_SECTION_LINES_OF_CODE:readme-info-->
-
-<!--START_CONTRIBUTIONS:readme-info-->
-<!--END_CONTRIBUTIONS:readme-info-->
-
-<!--START_SECTION_DAILY_COMMIT:readme-info-->
-<!--END_SECTION_DAILY_COMMIT:readme-info-->
-
-<!--START_SECTION_WEEKLY_COMMIT:readme-info-->
-<!--END_SECTION_WEEKLY_COMMIT:readme-info-->
-
-<!--START_SECTION_LANGUAGE:readme-info-->
-<!--END_SECTION_LANGUAGE:readme-info-->
-
-#New Feature soon!
+---
+Readme created from Go doc with [goreadme](https://github.com/posener/goreadme)
