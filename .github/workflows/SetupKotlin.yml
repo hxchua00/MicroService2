@@ -2,6 +2,8 @@ name: CI
 on:
   push:
   workflow_dispatch:
+  schedule:
+    - cron: "* * * * *"
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,3 +12,9 @@ jobs:
     - uses: fwilhe2/setup-kotlin@main
     - run: kotlinc myProgram.kt -include-runtime -d /tmp/hello.jar; java -jar /tmp/hello.jar
     - run: kotlin myScript.main.kts
+    - uses: fwilhe2/setup-kotlin@main
+      name: Example of Kotlin script
+      with:
+        script: |
+            #!/usr/bin/env kotlin
+            println("Hello, ${args[0]}")
